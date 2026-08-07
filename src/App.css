@@ -1,0 +1,38 @@
+.container {
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+.display {
+  width: 90%;
+  height: 45px;
+  font-size: 22px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  height: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #0056b3;
+}
